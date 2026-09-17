@@ -1,0 +1,43 @@
+name: analysis
+
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12
+  - jupyter
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - ipywidgets
+  - numpy
+  - pandas
+  - scipy
+  - openpyxl
+  - matplotlib
+  - seaborn
+  - plotly
+  - bokeh
+  - scikit-learn
+  - xgboost
+  - lightgbm
+  - imbalanced-learn
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pillow
+  - opencv
+  - tqdm
+  - pyyaml
+  - requests
+
+
+  - pip:
+    - tensorflow
+    - keras
+    - albumentations
+    - python-dotenv
+    - yfinance
+    - curl_cffi
